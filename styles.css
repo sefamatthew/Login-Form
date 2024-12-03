@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #cbcbcb;
+}
+  .main-section  {
+   height: 100vh;
+   width: 100%;
+}
+ .main-section .first-section{
+    background-image: url(/pictures/background-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+      float: left;
+      width: 40%;
+      height: 100%;
+}
+ .main-section .hero-section{
+   float: right; 
+    height: auto;
+    width: 60%;
+ }
+ .first-pgragh{
+    margin-left: 1rem;
+    font-size: 19px;
+    margin-bottom: 48px;
+ }
+ .Third-section h2{
+     font-size: 17px;
+    margin-top: 10rem ;
+    padding:24px;
+    color: #1b1b1b;
+ }
+ .Third-section h3{
+    margin-left: 1rem;
+    color: #1b1b1b;
+ }
+ .contact-us{
+    display: inline-block;
+    width: 100%;
+    column-count: 2;
+    margin: 12px;
+   background: #ffffff;
+   box-shadow: 0 15px 15px rgb(0, 0, 15%);
+ }
+ .red input{
+    margin: 1px;
+    border-radius: 5px;
+    padding: 5px;
+ }
+ label{
+    display: block;
+    padding: 3px;
+ }
+button{
+    padding: 6px;
+    margin-bottom: 15px;
+    width: 23%;
+   margin-left: 2rem;
+   cursor: pointer;
+   border-radius: 9px;
+   background: #596D48;
+   color: #fff;
+  }
+  .buttom {
+    margin-left: 1rem;
+    padding-bottom: 1rem;
+ }
+ legend{
+    display: none;
+    border: none;
+ }
+ .red input:focus{
+    border: 2px solid rgb(10, 10, 203);
+  }
+ .red input:invalid{
+    border: 2px solid red;
+  }
+  .logo{
+    background-color: #0c010150;
+    color:#f9f9f9;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 5rem;
+
+    height: 13.6vh;
+    padding: 2vh 10vw;
+    margin-top: calc(45.2vh - 1.6vh); /* Golden Ratio minus height */ 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & img {
+        height: 100%;
+    }
+}
+  
